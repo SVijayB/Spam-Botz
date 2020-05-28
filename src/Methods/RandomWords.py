@@ -8,9 +8,9 @@ def randwords():
     response = urllib.request.urlopen(url)
     data = str(response.read().decode())
     words = data.splitlines()
-    count = int(input("Enter the number of words you want to spam : "))
+    count = int(input("Enter the number of words you want to spam : \n> "))
     randwords = random.sample(words,count)
-    print("Open Your Social Media Platform and select your text box")
-    time.sleep(5)
+    print("Open Your Social Media Platform and select your text box. Wait for atleast 15 seconds")
+    time.sleep(15)
     for x in randwords:
         spammer(x)

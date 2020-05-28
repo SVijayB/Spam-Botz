@@ -4,7 +4,9 @@ from Methods.Static import *
 from Methods.RandomWords import *
 
 if __name__ == "__main__":
-    choice = int(input("""How would you like to spam the user ? 
+    print("Spam-Botz | v1.0.0")
+    time.sleep(0.5)
+    choice = int(input("""How would you like to spam ? 
     1) Static Message
     2) Random Words From A Dictionary
     3) Series of Sequential Numbers
