@@ -1,9 +1,15 @@
 import random
 from Spammer import spammer
 import time
+import sys
 
 def randomnum():
-    count = int(input("Enter the number of spam messages you want to send : \n> "))
+    try:
+        count = int(input("Enter the number of spam messages you want to send : \n> "))
+    except:
+        print("ERROR : Enter Only Numbers")
+        input("Press any key to exit ")
+        sys.exit(0)
     print("Open Your Social Media Platform and select your text box. Wait for atleast 15 seconds")
     time.sleep(15)
     for x in range(count):
