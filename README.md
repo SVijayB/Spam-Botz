@@ -43,10 +43,10 @@ You have only **15 Seconds** before the automation process begins.
 
 ## Contributing 
 
-To contribute to Steam_WebScrapper, fork the repository, create a new branch and send us a pull request. Make sure you read [CONTRIBUTING.md](https://github.com/SVijayB/Spam-Botz/blob/master/docs/CONTRIBUTING.md) before sending us Pull requests. 
+To contribute to Spam-Botz, fork the repository, create a new branch and send us a pull request. Make sure you read [CONTRIBUTING.md](https://github.com/SVijayB/Spam-Botz/blob/master/docs/CONTRIBUTING.md) before sending us Pull requests. 
 
 Also, thanks for contributing to Open-source!
 
 ## License 
 
-Steam Web Scraper is Licensed under MIT. Read the [LICENSE](https://github.com/SVijayB/Spam-Botz/blob/master/LICENSE) file for more information
+Spam-Botz is Licensed under MIT. Read the [LICENSE](https://github.com/SVijayB/Spam-Botz/blob/master/LICENSE) file for more information
