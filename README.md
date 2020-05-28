@@ -41,6 +41,9 @@ git clone https://github.com/SVijayB/Spam-Botz.git
 **NOTE :** Make sure your cursor is pointing to the correct text box after you set your preferences.
 You have only **15 Seconds** before the automation process begins.
 
+Sometimes you might get banned from the server for spamming too many messages in a short period. To avoid this,
+This application has a custom time delay feature. Make sure you enter the appropriate value.
+
 ## Contributing 
 
 To contribute to Spam-Botz, fork the repository, create a new branch and send us a pull request. Make sure you read [CONTRIBUTING.md](https://github.com/SVijayB/Spam-Botz/blob/master/docs/CONTRIBUTING.md) before sending us Pull requests. 
