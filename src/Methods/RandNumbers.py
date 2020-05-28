@@ -6,6 +6,7 @@ import sys
 def randomnum():
     try:
         count = int(input("Enter the number of spam messages you want to send : \n> "))
+        sleep = int(input("Enter time delay(in seconds) between each message : \n> "))
     except:
         print("ERROR : Enter Only Numbers")
         input("Press any key to exit ")
@@ -15,4 +16,4 @@ def randomnum():
     for x in range(count):
         num = random.randint(0,100000000)
         term = str(num)
-        spammer(term)
+        spammer(term,sleep)

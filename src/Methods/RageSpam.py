@@ -14,6 +14,7 @@ def message():
 def rage():
     try:
         count = int(input("Enter the number of spam messages you want to send : \n> "))
+        sleep = int(input("Enter time delay(in seconds) between each message : \n> "))
     except:
         print("ERROR : Enter Only Numbers")
         input("Press any key to exit ")
@@ -22,4 +23,4 @@ def rage():
     time.sleep(15)
     for x in range(count):
         msg = message()
-        spammer(msg)
+        spammer(msg,sleep)
