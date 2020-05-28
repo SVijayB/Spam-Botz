@@ -1,6 +1,7 @@
 from Static import *
 from RandomWords import *
 from Numbers import *
+from RandNumbers import *
 
 if __name__ == "__main__":
     choice = int(input("""How would you like to spam the user ? 
