@@ -7,16 +7,22 @@ from Methods.RageSpam import *
 if __name__ == "__main__":
     print("Spam-Botz | v1.0.0")
     time.sleep(0.5)
-    choice = int(input("""How would you like to spam ? 
+    print("""How would you like to spam ? 
     1) Static Message
     2) Random Words From A Dictionary
     3) Series of Sequential Numbers
     4) Random Numbers
-    5) Rage Spam\n> """))
-
+    5) Rage Spam""")
+    choice = int(input("> "))
+    if(choice<1 or choice>5):
+        print("ENTER VALUES BETWEEN 1 AND 5 ONLY")
     while(choice<1 or choice>5):
-        print("ERROR: ENTER VALUES BETWEEN 1 AND 5 ONLY")
-        choice = int(input("> "))
+        try:
+            choice = int(input("> "))
+            if(choice<1 or choice>4):
+                raise ValueError
+        except ValueError:
+            print("ERROR : INVALID NUMBER")
     if(choice==1):
         static()
     if(choice==2):
