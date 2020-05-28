@@ -17,7 +17,7 @@ if __name__ == "__main__":
     while(choice<1 or choice>5):
         try:
             choice = int(input("> "))
-            if(choice<1 or choice>4):
+            if(choice<1 or choice>5):
                 raise ValueError
         except ValueError:
             print("ERROR : INVALID NUMBER")
