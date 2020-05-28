@@ -6,4 +6,5 @@ def static():
     count = int(input("Enter the number of times you want to spam the message : "))
     print("Open Your Social Media Platform and select your text box")
     time.sleep(5)
-    spammer(count,message)
+    for i in range(count):
+        spammer(message)

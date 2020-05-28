@@ -1,4 +1,5 @@
 from Static import *
+from RandomWords import *
 
 if __name__ == "__main__":
     choice = int(input("""How would you like to spam the user ? 
@@ -13,7 +14,7 @@ if __name__ == "__main__":
     if(choice==1):
         static()
     if(choice==2):
-        random()
+        randwords()
     if(choice==3):
         numbers()
     if(choice==4):
