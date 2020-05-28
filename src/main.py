@@ -13,9 +13,7 @@ if __name__ == "__main__":
     3) Series of Sequential Numbers
     4) Random Numbers
     5) Rage Spam""")
-    choice = int(input("> "))
-    if(choice<1 or choice>5):
-        print("ENTER VALUES BETWEEN 1 AND 5 ONLY")
+    choice = 0
     while(choice<1 or choice>5):
         try:
             choice = int(input("> "))
