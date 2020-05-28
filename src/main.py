@@ -2,16 +2,15 @@ from Spammer import *
 from Static import *
 import time
 
-try:
-    choice = int(input("""How would you like to spam the user ? 
-    1) Static Message
-    2) Random Words From A Dictionary
-    3) Series of Sequential Numbers
-    4) Random Numbers"""))
-    if(choice!=1 or choice!=2 or choice!=3 or choice!=4):
-        raise ValueError
-except ValueError:
-    print("Select Values Between 1-4 only")
+choice = int(input("""How would you like to spam the user ? 
+1) Static Message
+2) Random Words From A Dictionary
+3) Series of Sequential Numbers
+4) Random Numbers\n>"""))
+
+while(choice<1 or choice>4):
+    print("ERROR: ENTER VALUES BETWEEN 1 AND 4 ONLY")
+    choice = int(input(">"))
 if(choice==1):
     message = static()
 
