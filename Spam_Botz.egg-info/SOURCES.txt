@@ -1,0 +1,15 @@
+README.md
+setup.py
+Spam_Botz.egg-info/PKG-INFO
+Spam_Botz.egg-info/SOURCES.txt
+Spam_Botz.egg-info/dependency_links.txt
+Spam_Botz.egg-info/top_level.txt
+Spam_botz/Spam_botz.py
+Spam_botz/__init__.py
+Spam_botz/Modules/Numbers.py
+Spam_botz/Modules/RageSpam.py
+Spam_botz/Modules/RandNumbers.py
+Spam_botz/Modules/RandomWords.py
+Spam_botz/Modules/Spammer.py
+Spam_botz/Modules/Static.py
+Spam_botz/Modules/__init__.py
