@@ -6,7 +6,8 @@ from Modules.RageSpam import *
 import time
 
 if __name__ == "__main__":
-    print("Spam-Botz | 1.0.0")
+    data = open("../version.txt" , "r").read()
+    print("Spam-Botz | " + data)
     time.sleep(1)
     print("""How would you like to spam ? 
     1) Static Message
