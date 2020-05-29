@@ -1,6 +1,6 @@
 import urllib.request
 import random
-from Spammer import *
+from Modules.Spammer import *
 import time
 
 def randwords():

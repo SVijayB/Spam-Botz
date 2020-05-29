@@ -29,14 +29,14 @@ This application allows you to spam in variations, like :
 
 For the latest Stable version, go to <a href="https://github.com/SVijayB/Spam-Botz/releases">Releases</a>
 
-Extract the files and run `main.py` file present in the `src` folder.
+Extract the files and run `Spam_botz.py` file present in the `src` folder.
 
 As an alternative, you could also clone the repository using.
 <pre>
 git clone https://github.com/SVijayB/Spam-Botz.git
 </pre>
 
-**NOTE :** It is best to open your messaging window before launching `main.py`.
+**NOTE :** It is best to open your messaging window before launching `Spam_botz.py`.
 
 **NOTE :** Make sure your cursor is pointing to the correct text box after you set your preferences.
 You have only **15 Seconds** before the automation process begins.
