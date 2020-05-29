@@ -1,3 +1,7 @@
 .vscode
 Spam_botz/__pycache__
 Spam_botz/Modules/__pycache__
+build/
+dist/
+*.egg-info/
+__pycache__/
