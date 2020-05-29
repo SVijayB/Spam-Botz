@@ -1,7 +1,7 @@
 import random
 import string
 import time
-from Spammer import *
+from Modules.Spammer import *
 
 def message():
     chars = string.ascii_lowercase + string.ascii_uppercase + string.digits

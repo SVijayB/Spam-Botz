@@ -1,8 +1,9 @@
-from Methods.Numbers import *
-from Methods.RandNumbers import *
-from Methods.Static import *
-from Methods.RandomWords import *
-from Methods.RageSpam import * 
+from Modules.Numbers import *
+from Modules.RandNumbers import *
+from Modules.Static import *
+from Modules.RandomWords import *
+from Modules.RageSpam import * 
+import time
 
 if __name__ == "__main__":
     data = open("../version.txt" , "r").read()

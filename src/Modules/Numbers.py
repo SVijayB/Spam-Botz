@@ -1,4 +1,4 @@
-from Spammer import *
+from Modules.Spammer import *
 import time
 
 def numbers():
