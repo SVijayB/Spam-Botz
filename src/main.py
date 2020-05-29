@@ -5,7 +5,8 @@ from Methods.RandomWords import *
 from Methods.RageSpam import * 
 
 if __name__ == "__main__":
-    print("Spam-Botz | v1.0.0")
+    data = open("version.txt" , "r").read()
+    print("Spam-Botz | " + data)
     time.sleep(0.5)
     print("""How would you like to spam ? 
     1) Static Message
