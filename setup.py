@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="Spam-Botz", # Replace with your own username
+    name="SpamBotz", # Replace with your own username
     version="1.0.0",
     author="S Vijay Balaji",
     author_email="vijaybalajitheboss@gmail.com",

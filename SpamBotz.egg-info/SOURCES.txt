@@ -1,9 +1,9 @@
 README.md
 setup.py
-Spam_Botz.egg-info/PKG-INFO
-Spam_Botz.egg-info/SOURCES.txt
-Spam_Botz.egg-info/dependency_links.txt
-Spam_Botz.egg-info/top_level.txt
+SpamBotz.egg-info/PKG-INFO
+SpamBotz.egg-info/SOURCES.txt
+SpamBotz.egg-info/dependency_links.txt
+SpamBotz.egg-info/top_level.txt
 Spam_botz/Spam_botz.py
 Spam_botz/__init__.py
 Spam_botz/Modules/Numbers.py
