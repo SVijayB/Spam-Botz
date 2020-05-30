@@ -16,8 +16,8 @@ if __name__ == "__main__":
         2) Spam Random Words From A Dictionary
         3) Spam A Series of Sequential Numbers
         4) Spam Random Large Numbers
-        5) Rage Spam
-        6) Sentence breaker(into words) Spam
+        5) Sentence breaker(into words) Spam
+        6) Rage Spam
         7) EXIT""")
         choice = 0
         while(choice<1 or choice>7):
@@ -36,9 +36,9 @@ if __name__ == "__main__":
         if(choice==4):
             randomnum()
         if(choice==5):
-            rage()
-        if(choice==6):
             sentencebreaker()
+        if(choice==6):
+            rage()
         if(choice==7):
             print("-----x Thank You For Using Spam-Botz x-----")
             input("Press any key to exit ")
