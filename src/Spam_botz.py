@@ -3,6 +3,7 @@ from Modules.RandNumbers import *
 from Modules.Static import *
 from Modules.RandomWords import *
 from Modules.RageSpam import * 
+from Modules.SentenceBreaker import *
 import time
 
 if __name__ == "__main__":
@@ -14,12 +15,13 @@ if __name__ == "__main__":
     2) Random Words From A Dictionary
     3) Series of Sequential Numbers
     4) Random Numbers
-    5) Rage Spam""")
+    5) Rage Spam
+    6) Sentence breaker(into words).""")
     choice = 0
-    while(choice<1 or choice>5):
+    while(choice<1 or choice>6):
         try:
             choice = int(input("> "))
-            if(choice<1 or choice>5):
+            if(choice<1 or choice>6):
                 raise ValueError
         except ValueError:
             print("ERROR : INVALID NUMBER")
@@ -33,3 +35,5 @@ if __name__ == "__main__":
         randomnum()
     if(choice==5):
         rage()
+    if(choice==6):
+        sentencebreaker()
