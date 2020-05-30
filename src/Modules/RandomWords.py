@@ -10,7 +10,7 @@ def randwords():
     words = data.splitlines()
     try:
         count = int(input("Enter the number of words you want to spam : \n> "))
-        sleep = int(input("Enter time delay(in seconds) between each message : \n> "))
+        sleep = float(input("Enter time delay(in seconds) between each message : \n> "))
     except:
         print("ERROR : Enter Only Numbers")
         input("Press any key to exit ")

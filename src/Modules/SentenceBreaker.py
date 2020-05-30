@@ -5,14 +5,14 @@ def sentencebreaker():
     "\nIt then sends them seperately one by one")
     message = input("Enter the String you want to spam : \n> ")
     try:
-        sleep = int(input("Enter time delay(in seconds) between each message : \n> "))
+        sleep = float(input("Enter time delay(in seconds) between each message : \n> "))
     except:
         print("ERROR : Enter Only Numbers")
         input("Press any key to exit ")
         sys.exit(0)
     print("Open Your Social Media Platform and select your text box. Wait for atleast 15 seconds")
     words = message.split()
-    time.sleep(5)
+    time.sleep(15)
     for unit in words:
         time.sleep(0.1)
         spammer(unit,sleep)
