@@ -19,6 +19,6 @@ def randwords():
         sys.exit(0)
     randwords = random.sample(words,count)
     print("Open Your Social Media Platform and select your text box. Wait for atleast 15 seconds")
-    time.sleep(5)
+    time.sleep(15)
     for x in randwords:
         spammer(x,sleep)

@@ -13,7 +13,7 @@ def sentencebreaker():
         sys.exit(0)
     print("Open Your Social Media Platform and select your text box. Wait for atleast 15 seconds")
     words = message.split()
-    time.sleep(5)
+    time.sleep(15)
     for unit in words:
         time.sleep(0.1)
         spammer(unit,sleep)

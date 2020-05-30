@@ -12,7 +12,7 @@ def numbers():
         input("Press any key to exit ")
         sys.exit(0)
     print("Open Your Social Media Platform and select your text box. Wait for atleast 15 seconds")
-    time.sleep(5)
+    time.sleep(15)
     for x in range(1,count+1):
         x = str(x)
         spammer(x,sleep)

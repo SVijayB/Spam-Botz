@@ -14,7 +14,7 @@ def randomnum():
         input("Press any key to exit ")
         sys.exit(0)
     print("Open Your Social Media Platform and select your text box. Wait for atleast 15 seconds")
-    time.sleep(5)
+    time.sleep(15)
     for x in range(count):
         num = random.randint(1,999999999)
         term = str(num)
