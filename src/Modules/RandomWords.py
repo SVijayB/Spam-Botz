@@ -4,13 +4,15 @@ from Modules.Spammer import *
 import time
 
 def randwords():
+    print("\n-----RANDOM DICTIONARY WORDS SPAM-----")
+    print("This spamming method spams random dictionary words\n")
     url = "http://svnweb.freebsd.org/csrg/share/dict/words?view=co&content-type=text/plain"
     response = urllib.request.urlopen(url)
     data = str(response.read().decode())
     words = data.splitlines()
     try:
-        count = int(input("Enter the number of words you want to spam : \n> "))
-        sleep = int(input("Enter time delay(in seconds) between each message : \n> "))
+        count = int(input("Enter the number of words you want to spam \n> "))
+        sleep = float(input("Enter time delay(in seconds) between each message \n> "))
     except:
         print("ERROR : Enter Only Numbers")
         input("Press any key to exit ")

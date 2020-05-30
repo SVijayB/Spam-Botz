@@ -23,6 +23,7 @@ This application allows you to spam in variations, like :
 - Spamming random words from a dictionary.
 - Sending sequences of numbers.
 - Randomly spamming large numbers.
+- Breaking a sentence into its component words and spam them as seperate messages.
 - Good old Rage spam, but this time without breaking your keyboard.
 
 ## Usage

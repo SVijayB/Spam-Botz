@@ -12,9 +12,12 @@ def message():
     return(spam)
 
 def rage():
+    print("\n-----RAGE SPAM-----")
+    print("Rage spam is just a combination of random letters and numbers that make no sense.",
+    "\nUsed primarily only for the purpose of absolute spam.\n")
     try:
-        count = int(input("Enter the number of spam messages you want to send : \n> "))
-        sleep = int(input("Enter time delay(in seconds) between each message : \n> "))
+        count = int(input("Enter the number of spam messages you want to send \n> "))
+        sleep = float(input("Enter time delay(in seconds) between each message \n> "))
     except:
         print("ERROR : Enter Only Numbers")
         input("Press any key to exit ")
