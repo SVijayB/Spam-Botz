@@ -4,6 +4,19 @@
     <br>A simple and easy to use Spam Bot
 </p>
 
+---
+
+[![GitHub pull-requests](https://img.shields.io/github/issues-pr/SVijayB/Spam-Botz.svg)](https://github.com/SVijayB/Spam-Botz/pulls)
+[![GitHub issues](https://img.shields.io/github/issues/SVijayB/Spam-Botz.svg)](https://github.com/SVijayB/Spam-Botz/issues)
+[![GitHub contributors](https://img.shields.io/github/contributors/SVijayB/Spam-Botz.svg)](https://github.com/SVijayB/Spam-Botz/graphs/contributors)
+
+[![GitHub license](https://img.shields.io/github/license/SVijayB/Spam-Botz.svg)](https://github.com/SVijayB/Spam-Botz/blob/master/LICENSE)
+[![GitHub release](https://img.shields.io/github/release/SVijayB/Spam-Botz.svg)](https://github.com/SVijayB/Spam-Botz/releases)
+[![GitHub repo size](https://img.shields.io/github/repo-size/SVijayB/Spam-Botz)](https://github.com/SVijayB/Spam-Botz)
+
+[![Code of Conduct](https://img.shields.io/badge/code%20of-conduct-ff69b4.svg?style=flat)](https://github.com/SVijayB/Spam-Botz/blob/master/docs/CODE_OF_CONDUCT.md)
+[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/SVijayB/Spam-Botz/blob/master/docs/CONTRIBUTING.md)
+
 ## Table of Contents
 
 - [Motivation](#Motivation)
