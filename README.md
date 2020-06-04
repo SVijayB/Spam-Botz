@@ -66,4 +66,4 @@ Also, thanks for contributing to Open-source!
 
 ## License 
 
-Spam-Botz is Licensed under MIT. Read the [LICENSE](https://github.com/SVijayB/Spam-Botz/blob/master/LICENSE) file for more information
+Spam-Botz is under The MIT License. Read the [LICENSE](https://github.com/SVijayB/Spam-Botz/blob/master/LICENSE) file for more information
