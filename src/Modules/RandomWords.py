@@ -1,14 +1,10 @@
-import urllib.request
 import random
 from Modules.Spammer import *
 import time
 
-def randwords():
+def randwords(data):
     print("\n-----RANDOM DICTIONARY WORDS SPAM-----")
     print("This spamming method spams random dictionary words\n")
-    url = "http://svnweb.freebsd.org/csrg/share/dict/words?view=co&content-type=text/plain"
-    response = urllib.request.urlopen(url)
-    data = str(response.read().decode())
     words = data.splitlines()
     try:
         count = int(input("Enter the number of words you want to spam \n> "))
