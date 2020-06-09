@@ -1,4 +1,3 @@
-import urllib.request
 import random
 from Modules.Spammer import *
 import time
