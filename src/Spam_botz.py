@@ -30,7 +30,10 @@ if __name__ == "__main__":
         if(choice==1):
             static()
         if(choice==2):
-            randwords()
+            x = open("../assets/dictionary.txt","r")
+            data = x.read()
+            randwords(data)
+            x.close()
         if(choice==3):
             numbers()
         if(choice==4):
