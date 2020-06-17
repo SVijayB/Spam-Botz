@@ -14,8 +14,8 @@
 [![GitHub release](https://img.shields.io/github/release/SVijayB/Spam-Botz.svg)](https://github.com/SVijayB/Spam-Botz/releases)
 [![GitHub repo size](https://img.shields.io/github/repo-size/SVijayB/Spam-Botz)](https://github.com/SVijayB/Spam-Botz)
 
-[![Code of Conduct](https://img.shields.io/badge/code%20of-conduct-ff69b4.svg?style=flat)](https://github.com/SVijayB/Spam-Botz/blob/master/docs/CODE_OF_CONDUCT.md)
-[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/SVijayB/Spam-Botz/blob/master/docs/CONTRIBUTING.md)
+[![Code of Conduct](https://img.shields.io/badge/code%20of-conduct-ff69b4.svg?style=flat)](https://github.com/SVijayB/Spam-Botz/blob/master/.github/CODE_OF_CONDUCT.md)
+[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/SVijayB/Spam-Botz/blob/master/.github/CONTRIBUTING.md)
 
 ## Table of Contents
 
@@ -60,7 +60,7 @@ This application has a custom time delay feature. Make sure you enter the approp
 
 ## Contributing 
 
-To contribute to Spam-Botz, fork the repository, create a new branch and send us a pull request. Make sure you read [CONTRIBUTING.md](https://github.com/SVijayB/Spam-Botz/blob/master/docs/CONTRIBUTING.md) before sending us Pull requests. 
+To contribute to Spam-Botz, fork the repository, create a new branch and send us a pull request. Make sure you read [CONTRIBUTING.md](https://github.com/SVijayB/Spam-Botz/blob/master/.github/CONTRIBUTING.md) before sending us Pull requests. 
 
 Also, thanks for contributing to Open-source!
 
