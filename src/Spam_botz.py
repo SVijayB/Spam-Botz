@@ -7,7 +7,7 @@ from Modules.SentenceBreaker import *
 import time
 
 if __name__ == "__main__":
-    data = open("../version.txt" , "r").read()
+    data = open("../assets/version.txt" , "r").read()
     print("Spam-Botz | " + data)
     time.sleep(1)
     while(True):
