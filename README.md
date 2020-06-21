@@ -26,6 +26,10 @@
 
 ## Motivation
 
+<p align="center">
+    <img src="https://i.ibb.co/DDxC40D/SS.png" alt="Logo" border="0">
+</p>
+
 This application was built to well, spam. 
 
 There is no real motivation behind building a spam bot but to simply annoy people.<br>
