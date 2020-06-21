@@ -7,6 +7,10 @@ from Modules.SentenceBreaker import *
 import time
 
 if __name__ == "__main__":
+    logo = open("../assets/logo.txt","r")
+    output = "".join(logo.readlines())
+    print(output)
+    print("\n"+"-"*20)
     data = open("../assets/version.txt" , "r").read()
     print("Spam-Botz | " + data)
     time.sleep(1)
