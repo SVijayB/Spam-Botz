@@ -4,20 +4,20 @@ from Modules.Static import *
 from Modules.RandomWords import *
 from Modules.RageSpam import * 
 from Modules.SentenceBreaker import *
-import time
-from os import system
 from Modules.Colours import *
+from time import sleep
+from os import system
 
 if __name__ == "__main__":
-    os.system('cls')
-    logo = open("../assets/logo.txt","r")
-    output = "".join(logo.readlines())
-    grey(output)
-    print("\n"+"-"*20)
-    data = open("../assets/version.txt" , "r").read()
-    print("Spam-Botz | " + data)
-    time.sleep(1)
     while(True):
+        os.system('cls')
+        logo = open("../assets/logo.txt","r")
+        output = "".join(logo.readlines())
+        grey(output)
+        green("\n"+"-"*20)
+        data = open("../assets/version.txt" , "r").read()
+        cyan("Spam-Botz | " + data)
+        time.sleep(1)
         print("""How would you like to spam ? 
         1) Static Message Spam
         2) Spam Random Words From A Dictionary
@@ -50,18 +50,18 @@ if __name__ == "__main__":
         if(choice==6):
             rage()
         if(choice==7):
-            print("-----x Thank You For Using Spam-Botz x-----")
+            green("-----x Thank You For Using Spam-Botz x-----")
             grey("Press enter to exit ")
             input()
             break
         green("\nSuccessfully Completed Spamming")
         ans = input("Do you want to continue your adventure on spamming? (Yes/No)\n> ")
         if(ans=="Yes" or ans=="yes" or ans=="y" or ans=="Y"):
-            print("\nJourney Continues...\n")
+            green("\nJourney Continues...\n")
             time.sleep(1)
             os.system('cls')
         elif(ans=="no" or ans=="No" or ans=="N" or ans=="n"):
-            print("-----x Thank You For Using Spam-Botz x-----")
+            green("-----x Thank You For Using Spam-Botz x-----")
             grey("Press enter to exit ")
             input()
             break

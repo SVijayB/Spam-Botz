@@ -1,10 +1,10 @@
 from Modules.Spammer import *
 from Modules.Colours import *
+from time import sleep
 import random
-import time
 
 def randwords(data):
-    print("\n-----RANDOM DICTIONARY WORDS SPAM-----")
+    cyan("\n-----RANDOM DICTIONARY WORDS SPAM-----")
     print("This spamming method spams random dictionary words\n")
     words = data.splitlines()
     try:

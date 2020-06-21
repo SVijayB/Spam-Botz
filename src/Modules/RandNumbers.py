@@ -1,11 +1,11 @@
 from Modules.Spammer import *
 from Modules.Colours import *
+from time import sleep
 import random
-import time
 import sys
 
 def randomnum():
-    print("\n-----LARGE NUMBERS SPAM-----")
+    cyan("\n-----LARGE NUMBERS SPAM-----")
     print("This spamming method spams random numbers from 1 - 999999999 each as a seperate message\n")
     try:
         count = int(input("Enter the number of spam messages you want to send \n> "))

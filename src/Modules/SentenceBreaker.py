@@ -1,8 +1,9 @@
 from Modules.Spammer import *
 from Modules.Colours import *
+from time import sleep
 
 def sentencebreaker():
-    print("\n-----SENTENCE BREAKER SPAM-----")
+    cyan("\n-----SENTENCE BREAKER SPAM-----")
     print("Sentence breaker is a type of spam that breaks a given sentence into its components(words),", 
     "\nIt then sends them seperately one by one\n")
     message = input("Enter the String you want to spam \n> ")

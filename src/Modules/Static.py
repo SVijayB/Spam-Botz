@@ -1,9 +1,9 @@
 from Modules.Spammer import *
 from Modules.Colours import *
-import time
+from time import sleep
 
 def static():
-    print("\n-----FIXED MESSAGE SPAM-----")
+    cyan("\n-----FIXED MESSAGE SPAM-----")
     print("This is the most iconic, yet basic spamming method. Spams a fixed string n times\n")
     message = input("Enter the String you want to spam \n> ")
     try:
@@ -15,6 +15,6 @@ def static():
         input()
         sys.exit(0)
     print("Open Your Social Media Platform and select your text box. Wait for atleast 15 seconds")
-    time.sleep(3)
+    time.sleep(15)
     for i in range(count):
         spammer(message,sleep)

@@ -1,8 +1,8 @@
 from Modules.Colours import *
 from Modules.Spammer import *
+from time import sleep
 import random
 import string
-import time
 
 def message():
     chars = string.ascii_lowercase + string.ascii_uppercase + string.digits
@@ -13,7 +13,7 @@ def message():
     return(spam)
 
 def rage():
-    print("\n-----RAGE SPAM-----")
+    cyan("\n-----RAGE SPAM-----")
     print("Rage spam is just a combination of random letters and numbers that make no sense.",
     "\nUsed primarily only for the purpose of absolute spam.\n")
     try:

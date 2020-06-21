@@ -1,9 +1,9 @@
 from Modules.Spammer import *
 from Modules.Colours import *
-import time
+from time import sleep
 
 def numbers():
-    print("\n-----SEQUENTIAL NUMBERS SPAM-----")
+    cyan("\n-----SEQUENTIAL NUMBERS SPAM-----")
     print("This is a spam method that sends numbers from 1 to n as seperate messages\n")
     try:
         count = int(input("Enter the number until which you want to spam \n> "))
