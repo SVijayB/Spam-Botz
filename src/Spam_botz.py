@@ -51,17 +51,22 @@ if __name__ == "__main__":
             rage()
         if(choice==7):
             print("-----x Thank You For Using Spam-Botz x-----")
-            input("Press any key to exit ")
+            grey("Press enter to exit ")
+            input()
             break
-        print("\nSuccessfully Completed Spamming")
+        green("\nSuccessfully Completed Spamming")
         ans = input("Do you want to continue your adventure on spamming? (Yes/No)\n> ")
         if(ans=="Yes" or ans=="yes" or ans=="y" or ans=="Y"):
             print("\nJourney Continues...\n")
+            time.sleep(1)
+            os.system('cls')
         elif(ans=="no" or ans=="No" or ans=="N" or ans=="n"):
             print("-----x Thank You For Using Spam-Botz x-----")
-            input("Press any key to exit ")
+            grey("Press enter to exit ")
+            input()
             break
         else:
-            print("ERROR : INVALID INPUT")
-            input("Press any key to exit ")
+            red("ERROR : INVALID INPUT")
+            grey("Press enter to exit ")
+            input()
             break

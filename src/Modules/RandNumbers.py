@@ -1,5 +1,6 @@
-import random
 from Modules.Spammer import *
+from Modules.Colours import *
+import random
 import time
 import sys
 
@@ -10,8 +11,9 @@ def randomnum():
         count = int(input("Enter the number of spam messages you want to send \n> "))
         sleep = float(input("Enter time delay(in seconds) between each message \n> "))
     except:
-        print("ERROR : Enter Only Numbers")
-        input("Press any key to exit ")
+        red("ERROR : Enter Only Numbers")
+        grey("Press enter to exit ")
+        input()
         sys.exit(0)
     print("Open Your Social Media Platform and select your text box. Wait for atleast 15 seconds")
     time.sleep(15)

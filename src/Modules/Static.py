@@ -1,5 +1,6 @@
-import time
 from Modules.Spammer import *
+from Modules.Colours import *
+import time
 
 def static():
     print("\n-----FIXED MESSAGE SPAM-----")
@@ -9,8 +10,9 @@ def static():
         count = int(input("Enter the number of times you want to spam the message \n> "))
         sleep = float(input("Enter time delay(in seconds) between each message \n> "))
     except:
-        print("ERROR : Enter Only Numbers")
-        input("Press any key to exit ")
+        red("ERROR : Enter Only Numbers")
+        grey("Press enter to exit ")
+        input()
         sys.exit(0)
     print("Open Your Social Media Platform and select your text box. Wait for atleast 15 seconds")
     time.sleep(3)

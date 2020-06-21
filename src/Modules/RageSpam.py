@@ -1,7 +1,8 @@
+from Modules.Colours import *
+from Modules.Spammer import *
 import random
 import string
 import time
-from Modules.Spammer import *
 
 def message():
     chars = string.ascii_lowercase + string.ascii_uppercase + string.digits
@@ -19,8 +20,9 @@ def rage():
         count = int(input("Enter the number of spam messages you want to send \n> "))
         sleep = float(input("Enter time delay(in seconds) between each message \n> "))
     except:
-        print("ERROR : Enter Only Numbers")
-        input("Press any key to exit ")
+        red("ERROR : Enter Only Numbers")
+        grey("Press enter to exit ")
+        input()
         sys.exit(0)
     print("Open Your Social Media Platform and select your text box. Wait for atleast 15 seconds")
     time.sleep(15)

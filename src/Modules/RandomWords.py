@@ -1,5 +1,6 @@
-import random
 from Modules.Spammer import *
+from Modules.Colours import *
+import random
 import time
 
 def randwords(data):
@@ -10,8 +11,9 @@ def randwords(data):
         count = int(input("Enter the number of words you want to spam \n> "))
         sleep = float(input("Enter time delay(in seconds) between each message \n> "))
     except:
-        print("ERROR : Enter Only Numbers")
-        input("Press any key to exit ")
+        red("ERROR : Enter Only Numbers")
+        grey("Press enter to exit ")
+        input()
         sys.exit(0)
     randwords = random.sample(words,count)
     print("Open Your Social Media Platform and select your text box. Wait for atleast 15 seconds")
