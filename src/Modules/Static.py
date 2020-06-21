@@ -13,6 +13,6 @@ def static():
         input("Press any key to exit ")
         sys.exit(0)
     print("Open Your Social Media Platform and select your text box. Wait for atleast 15 seconds")
-    time.sleep(15)
+    time.sleep(3)
     for i in range(count):
         spammer(message,sleep)

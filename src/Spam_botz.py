@@ -5,17 +5,20 @@ from Modules.RandomWords import *
 from Modules.RageSpam import * 
 from Modules.SentenceBreaker import *
 import time
+from os import system
+from Modules.Colours import *
 
 if __name__ == "__main__":
+    os.system('cls')
     logo = open("../assets/logo.txt","r")
     output = "".join(logo.readlines())
-    print(output)
+    grey(output)
     print("\n"+"-"*20)
     data = open("../assets/version.txt" , "r").read()
     print("Spam-Botz | " + data)
     time.sleep(1)
     while(True):
-        print("""What would you like to do ? 
+        print("""How would you like to spam ? 
         1) Static Message Spam
         2) Spam Random Words From A Dictionary
         3) Spam A Series of Sequential Numbers
@@ -30,7 +33,7 @@ if __name__ == "__main__":
                 if(choice<1 or choice>7):
                     raise ValueError
             except ValueError:
-                print("ERROR : INVALID NUMBER")
+                red("ERROR : INVALID NUMBER")
         if(choice==1):
             static()
         if(choice==2):
