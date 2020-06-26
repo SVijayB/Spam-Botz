@@ -45,6 +45,10 @@ This application allows you to spam in variations, like :
 
 ## Usage
 
+Prerequisites : **Python 3** and Pynput module.
+
+To install Pynput, open your terminal and type `pip install pynput`
+
 For the latest Stable version, go to <a href="https://github.com/SVijayB/Spam-Botz/releases">Releases</a>
 
 Extract the files and run `Spam_botz.py` file present in the `src` folder.
