@@ -1,6 +1,6 @@
 # Spam-Botz
 <p align="center">
-    <img src="https://i.ibb.co/LtzC9DM/Logo.png" alt="Logo" border="0">
+    <img src="assets/images/Logo.PNG" alt="Logo" border="0">
     <br>A simple and easy to use Spam Bot
 </p>
 
@@ -27,7 +27,7 @@
 ## Motivation
 
 <p align="center">
-    <img src="https://i.ibb.co/DDxC40D/SS.png" alt="Logo" border="0">
+    <img src="assets/images/SS.PNG" alt="SS" border="0">
 </p>
 
 This application was built to well, spam. 
