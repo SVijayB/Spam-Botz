@@ -21,6 +21,7 @@
 
 - [Motivation](#Motivation)
 - [Usage](#Usage)
+- [Disclaimer](#Disclaimer)
 - [Contributing](#Contributing)
 - [License](#License)
 
@@ -65,6 +66,14 @@ You have only **15 Seconds** before the automation process begins.
 
 Sometimes you might get banned from the server for spamming too many messages in a short period. To avoid this,
 This application has a custom time delay feature. Make sure you enter the appropriate value.
+
+## Disclaimer
+
+<p align="center">
+  TO BE USED FOR EDUCATIONAL PURPOSES ONLY
+</p>
+
+The use of the Spam-Botz & its resources is **COMPLETE RESPONSIBILITY of the END-USER**. Developers assume NO liability and are NOT responsible for any misuse or damage caused by this program.
 
 ## Contributing 
 
