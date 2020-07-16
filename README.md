@@ -20,6 +20,7 @@
 ## Table of Contents
 
 - [Motivation](#Motivation)
+- [Installation](#Installation)
 - [Usage](#Usage)
 - [Disclaimer](#Disclaimer)
 - [Contributing](#Contributing)
@@ -33,8 +34,26 @@
 
 This application was built to well, spam. 
 
-There is no real motivation behind building a spam bot but to simply annoy people.<br>
-Or at times even crash the application. 
+It was built to understand Pynput and python automation.
+
+## Installation
+
+Prerequisites : **Python 3** and Pynput module.
+
+To install Pynput, open your terminal and type `pip install pynput`
+
+For the latest Stable version of Spam-Botz, go to <a href="https://github.com/SVijayB/Spam-Botz/releases">Releases</a>, and extract the files.
+
+As an alternative, you could also clone the repository using.
+<pre>
+git clone https://github.com/SVijayB/Spam-Botz.git
+</pre>
+
+## Usage
+
+Once you have Spam-Botz installed, you can launch it by double tapping the `Spam-Botz.py` file present in the **`src`** folder. You can do this only if you have the *python launcher* installed.
+
+Else, `cd/` to the src folder on your terminal and type `python Spam-Botz.py`.
 
 This application allows you to spam in variations, like : 
 - Spamming a fixed static message.
@@ -44,22 +63,7 @@ This application allows you to spam in variations, like :
 - Breaking a sentence into its component words and spam them as seperate messages.
 - Good old Rage spam, but this time without breaking your keyboard.
 
-## Usage
-
-Prerequisites : **Python 3** and Pynput module.
-
-To install Pynput, open your terminal and type `pip install pynput`
-
-For the latest Stable version, go to <a href="https://github.com/SVijayB/Spam-Botz/releases">Releases</a>
-
-Extract the files and run `Spam_botz.py` file present in the `src` folder.
-
-As an alternative, you could also clone the repository using.
-<pre>
-git clone https://github.com/SVijayB/Spam-Botz.git
-</pre>
-
-**NOTE :** It is best to open your messaging window before launching `Spam_botz.py`.
+**NOTE :** It is best to open your messaging window before launching `Spam-botz.py`.
 
 **NOTE :** Make sure your cursor is pointing to the correct text box after you set your preferences.
 You have only **15 Seconds** before the automation process begins.
