@@ -3,6 +3,7 @@ from Modules.Colours import *
 from time import sleep
 import random
 
+
 def randwords(data):
     cyan("\n-----RANDOM DICTIONARY WORDS SPAM-----")
     print("This spamming method spams random dictionary words\n")
@@ -15,8 +16,10 @@ def randwords(data):
         grey("Press enter to exit ")
         input()
         sys.exit(0)
-    randwords = random.sample(words,count)
-    print("Open Your Social Media Platform and select your text box. Wait for atleast 15 seconds")
+    randwords = random.sample(words, count)
+    print(
+        "Open Your Social Media Platform and select your text box. Wait for atleast 15 seconds"
+    )
     time.sleep(15)
     for x in randwords:
-        spammer(x,sleep)
+        spammer(x, sleep)

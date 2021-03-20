@@ -2,7 +2,9 @@ from pynput.keyboard import *
 import time
 
 keyboard = Controller()
-def spammer(message,sleep):
+
+
+def spammer(message, sleep):
     for unit in message:
         keyboard.press(unit)
         keyboard.release(unit)
