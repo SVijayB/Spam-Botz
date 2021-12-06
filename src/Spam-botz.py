@@ -6,7 +6,7 @@ from Modules.RageSpam import *
 from Modules.SentenceBreaker import *
 from Modules.Colours import *
 from time import sleep
-from os import system
+import os
 
 if __name__ == "__main__":
     while True:
